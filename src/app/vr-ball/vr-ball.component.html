@@ -1,0 +1,15 @@
+<GridLayout>
+  <AbsoluteLayout>
+    <ContentView left="50%" top="50%" 
+                 [translateX]="-50" 
+                 [translateY]="-50">
+      <GridLayout width="100" 
+                  height="100" 
+                  [backgroundColor]="ballColor" 
+                  borderRadius="50"
+                  (tap)="onBallTap()"
+                  class="ball">
+      </GridLayout>
+    </ContentView>
+  </AbsoluteLayout>
+</GridLayout>
